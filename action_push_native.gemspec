@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
     Dir["{app,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
   end
 
-  spec.required_ruby_version = '>= 3.2.0'
+  spec.required_ruby_version = '>= 3.1.0'
 
   rails_version = ">= 8.0"
   spec.add_dependency "activerecord", rails_version
